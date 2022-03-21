@@ -1,0 +1,6 @@
+{
+    "ping": {
+        "path": "ping",
+        "handler": "Ping"
+    }
+}

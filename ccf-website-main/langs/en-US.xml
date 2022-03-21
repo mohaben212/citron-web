@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <lang>en-US</lang>
+    <messages>
+        <message>
+            <key>rh.area</key>
+            <val>RH Area</val>
+        </message>
+        <message>
+            <key>contract.new</key>
+            <val>New Contract</val>
+        </message>
+        <message>
+            <key>contracts.list</key>
+            <val>Employees</val>
+        </message>
+        <message>
+            <key>vacations</key>
+            <val>Vacations</val>
+        </message>
+        <message>
+            <key>financial.report</key>
+            <val>Financial Report</val>
+        </message>
+        <message>
+            <key>logoff</key>
+            <val>Log off</val>
+        </message>
+    </messages>
+</root>

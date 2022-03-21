@@ -1,0 +1,131 @@
+:root {
+    --col-main: #202020;
+    --col-accent: yellowgreen;
+    --col-default: #f0f0f0;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;
+    font-size: 16px;
+    background-color: var(--col-main);
+    color: var(--col-default);
+}
+
+body > header {
+    padding: 25px;
+    color: var(--col-accent);
+}
+
+main {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+main > aside {
+    flex: 1;
+}
+
+main > section {
+    flex: 2;
+}
+
+fieldset {
+    border-color: var(--col-accent);
+}
+
+fieldset legend {
+    font-weight: bold;
+    border-color: var(--col-accent);
+}
+
+input, select {
+    background-color: var(--col-main);
+    color: var(--col-accent);
+    border: 1px solid var(--col-accent);
+    padding: 0.2em;
+    font-size: 1.8em;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    color: var(--col-main);
+    background-color: var(--col-accent);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+a{
+    color: var(--col-accent);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+}
+
+menu li {
+    list-style: none;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+}
+
+table, table td, table th {
+    border-collapse: collapse;
+    border: 1px solid var(--col-accent);
+    padding: 0.2em;
+}
+
+table thead tr th, table tbody tr:nth-child(even) * {
+    background-color: var(--col-accent);
+    color: var(--col-main);
+}
+
+.error, .warning, .info, .success {
+    background-color: rgba(20, 20, 20, 0.8);
+    font-weight: bold;
+    padding: 15px;
+}
+
+footer#mainFooter {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    border-top: 2px outset rgba(20, 20, 20, 0.8);
+    background-color: rgba(20, 20, 20, 0.8);
+}
+
+.error {
+    border: 2px outset rgba(220, 20, 20, 0.8);
+    color: rgba(220, 20, 20, 0.8);
+}
+
+.success {
+    border: 2px outset rgba(20, 220, 20, 0.8);
+    color: rgba(20, 220, 20, 0.8);
+}
+
+.warning {
+    border: 2px outset rgba(220, 220, 20, 0.8);
+    color: rgba(220, 220, 20, 0.8);
+}
+
+.info {
+    border: 2px outset rgba(20, 20, 220, 0.8);
+    color: rgba(20, 20, 220, 0.8);
+}

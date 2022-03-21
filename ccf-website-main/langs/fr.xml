@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <lang>fr</lang>
+    <messages>
+        <message>
+            <key>rh.area</key>
+            <val>Zone RH</val>
+         <message>
+            <key>contract.new</key>
+            <val>Nouveau cantact </val>
+        </message>
+        <message>
+            <key>contracts.list</key>
+            <val>Employés</val>
+        </message>
+        <message>
+            <key>vacations</key>
+            <val>les vacances</val>
+        </message>
+        <message>
+            <key>financial.report</key>
+            <val>Rapport financier</val>
+        </message>
+        <message>
+            <key>logoff</key>
+            <val>Se déconnecter</val>
+    </messages>
+</root>
